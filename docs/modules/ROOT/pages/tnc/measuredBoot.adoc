@@ -1,0 +1,32 @@
+= Measured Boot
+
+== strongTNC Remote Attestation Database
+
+=== TPM BIOS Measurement Policy
+
+.Assign Device to TPM BIOS Group
+image::tnc_bios_device.png[TPM BIOS Group Assignment, link=self]
+
+=== Device Report
+
+.Device Report on TPM BIOS Measurements
+image::tnc_bios_report.png[TPM BIOS Device Report, link=self]
+
+.First Session registering TPM BIOS Measurements
+image::tnc_bios_session_1.png[TPM BIOS Registration Session, link=self]
+
+.Second Session verifiying TPM BIOS Measurements
+image::tnc_bios_session_2.png[TPM BIOS Verification Session, link=self]
+
+=== TPM Evidence
+
+.TPM Evidence
+image::tnc_tpm_evidence.png[TPM Evidence, link=self]
+
+== Attestation Client
+
+xref:./attestationClient.adoc[Attestation Client]
+
+== Attestation Server
+
+xref:./attestationServer.adoc[Attestation Server]

@@ -420,7 +420,7 @@ subtype `*SWIMA*`
 The overall policy recommendation issued by the TNC server is `*allow*` and
 communicated to the TNC client in the form of a PB-TNC `*Assessment-Result*`
 and a PB-TNC `*Access-Recommendation*` payload, both of which are sent together
-with the PA-TNC message from the `*SWIMA IMV*` in PB-TNC Result batch to the
+with the PA-TNC message from the `*SWIMA IMV*` in a PB-TNC Result batch to the
 TNC client
 ----
 07[TNC] TNC server is handling outbound connection
